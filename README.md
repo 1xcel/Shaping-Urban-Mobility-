@@ -93,7 +93,7 @@ as season or weather condition (choose one)?
 
 1. **Working Days vs. Non-Working Days**
 
-    <img width="946" height="749" alt="Screenshot 2025-09-29 at 2 55 02 AM" src="https://github.com/user-attachments/assets/294c6fc1-c770-476a-b002-95ebc5923487" />
+ <img width="930" height="295" alt="Screenshot 2025-09-29 at 1 22 13 AM" src="https://github.com/user-attachments/assets/f027d901-051d-428b-b265-3d18bd584549" />
 
 
 I Filtered the dataset into working days (weekdays excluding holidays) and non-working days (weekends + holidays). Then a Welch’s two-sample t-test is used since we are comparing the means of two independent groups with unequal variances. Lastly we calculated the 95% confidence interval (CI) for the difference in means.
